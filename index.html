@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> مصنع مارينا للمفروشات العصريه</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1> مصنع مارينا للمفروشات العصريه</h1>
+    <p>راحة وأناقة لكل بيت</p>
+    <a href="https://wa.me/201066004447" class="contact" target="_blank">
+        تواصل معنا واتساب
+    </a>
+</header>
+<div class="gallery">
+    <img src="./جوبير كبير.jpeg" alt="جوبير كبير">
+    <img src="./ليان.jpeg" alt="ليان">
+    <img src="./Rody كبير.jpeg" alt="Rody كبير">
+    <img src="./Rody اطفال.jpeg" alt="Rody اطفال">
+    <img src="./M25 كبير.jpeg" alt="M25 كبير">
+    <img src="./M25 اطفال.jpeg" alt="M25 اطفال">
+</div>
+
+<section class="hero">
+    <h2>أجمل مفروشات السراير</h2>
+    <p>اكتشفي تشكيلتنا المميزة بأفضل الأسعار</p>
+    <a href="#products" class="btn">شاهدي المنتجات</a>
+</section>
+
+<main>
+    <h2 id="products">منتجاتنا وأسعارنا</h2>
+
+    <input type="text" id="search" placeholder="ابحث عن منتج...">
+
+    <div id="productGrid" class="products"></div>
+
+    <h2>إضافة منتج جديد</h2>
+
+    <form id="productForm">
+        <input type="text" id="productName" placeholder="اسم المنتج" required>
+
+        <input type="number" id="productPrice" placeholder="السعر بالجنيه" required>
+
+        <input type="text" id="productDesc" placeholder="وصف المنتج">
+
+        <input type="file" id="productImage" accept="image/*" required>
+
+        <button type="submit">إضافة المنتج</button>
+    </form>
+</main>
+
+<footer>
+    <h2>مفروشات البيت</h2>
+    <p>شكراً لزيارتكم موقعنا</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
